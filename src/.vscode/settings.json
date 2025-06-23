@@ -96,8 +96,8 @@
   "editor.formatOnSave": true,
   "prettier.enable": true,
   "editor.codeActionsOnSave": {
-    // 保存时自动运行 ESLint 的修复功能，"explicit" 是一个更安全的选择，避免不必要的修复。
-    "source.fixAll.eslint": "explicit"
+    // 保存时自动运行 ESLint 的修复功能
+    "source.fixAll.eslint": "always"
   },
   "eslint.codeAction.showDocumentation": {
     "enable": true
