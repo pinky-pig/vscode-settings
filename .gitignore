@@ -5,5 +5,8 @@ dist
 *.log
 .eslint-config-inspector
 .vercel
-.vscode
 .editorconfig
+
+.vscode/
+!src/.vscode/
+!src/.editorconfig
