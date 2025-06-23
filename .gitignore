@@ -1,0 +1,9 @@
+node_modules
+.idea
+dist
+.DS_Store
+*.log
+.eslint-config-inspector
+.vercel
+.vscode
+.editorconfig
