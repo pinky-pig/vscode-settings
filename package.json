@@ -1,0 +1,37 @@
+{
+  "name": "@arvinn/vscode-settings",
+  "version": "0.0.2",
+  "packageManager": "pnpm@9.0.6",
+  "description": "VSCode settings for @arvinn.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/pinky-pig/vscode-settings#readme",
+  "bugs": {
+    "url": "https://github.com/pinky-pig/vscode-settings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinky-pig/vscode-settings.git"
+  },
+  "bin": {
+    "setup-vscode": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "template"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "node ./cli.js",
+    "release": "bumpp && pnpm publish"
+  },
+  "dependencies": {
+    "kolorist": "^1.8.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "bumpp": "^9.4.1"
+  }
+}
