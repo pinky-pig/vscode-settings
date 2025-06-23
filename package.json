@@ -14,12 +14,12 @@
     "url": "git+https://github.com/pinky-pig/vscode-settings.git"
   },
   "bin": {
-    "setup-vscode": "./cli.js"
+    "arvinn-vscode-settings": "./cli.js"
   },
   "files": [
     "cli.js",
-    "template",
-    ".editorconfig"
+    "src/.vscode",
+    "src/.editorconfig"
   ],
   "publishConfig": {
     "access": "public"
