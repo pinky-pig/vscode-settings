@@ -8,6 +8,13 @@
     ],
     "description": "function方法"
   },
+  "prettiteIgnore": {
+    "prefix": "prettiteIgnore",
+    "body": [
+      "// prettier-ignore"
+    ],
+    "description": "prettiteIgnore"
+  },
   "arrow": {
     "prefix": "arrowFunction 新建方法",
     "body": [
