@@ -1,4 +1,11 @@
 {
+  "tsignore": {
+    "prefix": "tsignore",
+    "body": [
+      "// @ts-ignore"
+    ],
+    "description": "typescript 单行忽略"
+  },
   "ignore": {
     "prefix": "_ignore",
     "body": [
