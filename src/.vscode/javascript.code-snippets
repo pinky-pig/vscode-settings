@@ -1,4 +1,11 @@
 {
+  "clg": {
+    "prefix": "clg",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "console.log打印",
+  },
   "function": {
     "prefix": "fn",
     "body": [
