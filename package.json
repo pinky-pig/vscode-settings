@@ -1,6 +1,6 @@
 {
   "name": "@arvinn/vscode-settings",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "packageManager": "pnpm@9.0.6",
   "description": "VSCode settings for @arvinn.",
   "type": "module",
